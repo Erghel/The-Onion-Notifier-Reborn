@@ -3,6 +3,10 @@ body {
   min-height: 415px;
 }
 
+img {
+  width: 30px;
+}
+
 h1 {
   font-size: 36px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,6 +18,8 @@ p {
 
 #extension_version {
   float: right;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 textarea {

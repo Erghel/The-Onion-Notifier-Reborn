@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
     chrome.storage.local.set({
       database: database_input.value
     }, function() {
-      status.textContent = "Saved.";
+      status.textContent = "SAVED";
       setTimeout(function() {
         status.textContent = "";
-      }, 5000);
+      }, 1500);
       chrome.runtime.sendMessage({ action: "load-options" });
     });
   });

@@ -35,11 +35,25 @@ function load_options() {
 # Contribute to the database by filing an issue at:
 # https://github.com/stefansundin/the-onion-notifier
 
-www.facebook.com          www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion   # https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
-protonmail.com            protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion       # https://protonmail.com/tor
-keybase.io                keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion       # https://keybase.io/docs/command_line/tor
-www.propublica.org        p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion       # https://www.propublica.org/nerds/item/a-more-secure-and-anonymous-propublica-using-tor-hidden-services
+# https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
+www.facebook.com          www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion   
+
+
+# https://protonmail.com/tor
+protonmail.com            protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion       
+
+
+# https://keybase.io/docs/command_line/tor
+keybase.io                keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion       
+
+
+# https://www.propublica.org/nerds/item/a-more-secure-and-anonymous-propublica-using-tor-hidden-services
+www.propublica.org        p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion       
+
+
+
 duckduckgo.com            duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion       
+
 
 # https://riseup.net/en/tor#riseups-tor-hidden-services
 # https://riseup.net/security/network-security/tor/hs-addresses-signed.txt
