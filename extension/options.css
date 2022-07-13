@@ -26,21 +26,21 @@ textarea {
 }
 
 button {
-    color: #111;
-    display: inline-block;
-    font-size: 75%;
-    font-weight: 800;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25rem;
-    border-color: #FFBF00;
-    color: #111;
-    background-color: #FFBF00;
-    padding: 0.5rem !important;
+  color: #111;
+  display: inline-block;
+  font-size: 75%;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  border-color: #FFBF00;
+  color: #111;
+  background-color: #FFBF00;
+  padding: 0.5rem !important;
 
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .main__links {

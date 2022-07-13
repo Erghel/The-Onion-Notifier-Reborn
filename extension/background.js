@@ -1,4 +1,4 @@
-var db;
+let db;
 
 // # bottom of https://thepiratebay.org/
 // thepiratebay.am    uj3wazyk5u4hnvtk.onion
@@ -31,7 +31,8 @@ function load_options() {
   chrome.storage.local.get("database", function(items) {
     if (!items.database || items.database == "") {
       items.database = 
-`# Contribute to the database by filing an issue at:
+`
+# Contribute to the database by filing an issue at:
 # https://github.com/stefansundin/the-onion-notifier
 
 www.facebook.com   www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion   # https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
@@ -70,15 +71,15 @@ flisland.net       flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onio
       chrome.storage.local.set(items);
     }
     items.database.split("\n").forEach(function(line) {
-      var hash_index = line.indexOf("#");
+      let hash_index = line.indexOf("#");
       if (hash_index != -1) {
         line = line.substr(0, hash_index);
       }
       line = line.trim();
       if (line == "") return;
-      var space_index = line.indexOf(" ");
-      var domain = line.substr(0, space_index);
-      var onion_domain = line.substr(space_index).trim();
+      let space_index = line.indexOf(" ");
+      let domain = line.substr(0, space_index);
+      let onion_domain = line.substr(space_index).trim();
       db[domain] = onion_domain;
     });
   });
@@ -93,23 +94,24 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
 });
 
 function extract_domain(url) {
-  var prot_index = url.indexOf("://");
+  let prot_index = url.indexOf("://");
   if (prot_index == -1) return;
-  var path_index = url.indexOf("/", prot_index+3);
+  let path_index = url.indexOf("/", prot_index + 3);
   if (path_index == -1) return;
   return url.substring(prot_index+3, path_index);
 }
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (changeInfo.url) {
-    var domain = extract_domain(changeInfo.url);
-    var onion_domain = db[domain];
+    let domain = extract_domain(changeInfo.url);
+    let onion_domain = db[domain];
     if (onion_domain) {
       chrome.notifications.create(`${tabId}`, {
         type: "basic",
         iconUrl: "img/icon48.png",
         title: `Onion domain available for ${domain}`,
-        message: `Click to open ${onion_domain}.`,
+        message: `                                          Click to open 
+                  ${onion_domain}.`,
       });
     }
     else {
@@ -119,11 +121,11 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 });
 
 chrome.notifications.onClicked.addListener(function(id) {
-  var tabId = parseInt(id, 10);
+  let tabId = parseInt(id, 10);
   chrome.tabs.get(tabId, function(tab) {
-    var domain = extract_domain(tab.url);
-    var onion_domain = db[domain];
-    var onion_url = tab.url.replace(domain, onion_domain).replace(/^https/, "http");
+    let domain = extract_domain(tab.url);
+    let onion_domain = db[domain];
+    let onion_url = tab.url.replace(domain, onion_domain).replace(/^https/, "http");
     chrome.tabs.update(tabId, {
       active: true,
       url: onion_url,
