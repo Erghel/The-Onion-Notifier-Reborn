@@ -124,7 +124,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
         type: "basic",
         iconUrl: "img/icon48.png",
         title: `Onion domain available for ${domain}`,
-        message: `                                          Click to open 
+        message: `Click to open 
                   ${onion_domain}.`,
       });
     }
