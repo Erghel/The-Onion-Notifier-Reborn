@@ -1,10 +1,10 @@
-var version = `v${chrome.runtime.getManifest().version}`
+let version = `v${chrome.runtime.getManifest().version}`
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("extension_version").textContent = version;
-  var database_input = document.getElementById("database");
-  var save_button = document.getElementById("save");
-  var status = document.getElementById("status");
+  let database_input = document.getElementById("database");
+  let save_button = document.getElementById("save");
+  let status = document.getElementById("status");
 
   chrome.storage.local.get(null, function(items) {
     database_input.value = items.database;

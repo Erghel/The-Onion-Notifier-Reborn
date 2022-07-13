@@ -35,38 +35,38 @@ function load_options() {
 # Contribute to the database by filing an issue at:
 # https://github.com/stefansundin/the-onion-notifier
 
-www.facebook.com   www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion   # https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
-protonmail.com     protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion       # https://protonmail.com/tor
-keybase.io         keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion       # https://keybase.io/docs/command_line/tor
-www.propublica.org p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion       # https://www.propublica.org/nerds/item/a-more-secure-and-anonymous-propublica-using-tor-hidden-services
-duckduckgo.com     duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion       
+www.facebook.com          www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion   # https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
+protonmail.com            protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion       # https://protonmail.com/tor
+keybase.io                keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion       # https://keybase.io/docs/command_line/tor
+www.propublica.org        p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion       # https://www.propublica.org/nerds/item/a-more-secure-and-anonymous-propublica-using-tor-hidden-services
+duckduckgo.com            duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion       
 
 # https://riseup.net/en/tor#riseups-tor-hidden-services
 # https://riseup.net/security/network-security/tor/hs-addresses-signed.txt
-riseup.net         vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
-www.riseup.net     vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
-help.riseup.net    vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
-lists.riseup.net   7sbw6jufrirhyltzkslhcmkik4z7yrsmbpnptyritvz5nhbk35hncsqd.onion
-mail.riseup.net    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
-pad.riseup.net     kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion
-share.riseup.net   aco6injncogk3siaubyh5sterx7w5pocqdrm7mna7u4wuukscgnqpeid.onion
-account.riseup.net 3xeiol2bnhrsqhcsaifwtnlqkylrerdspzua7bcjrh26qlrrrctfobid.onion
-we.riseup.net      zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.onion
-imap.riseup.net    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
-pop.riseup.net     5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
-smtp.riseup.net    5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
-mx1.riseup.net     aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.onion
-0xacab.org         wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion
+riseup.net                vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
+www.riseup.net            vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
+help.riseup.net           vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
+lists.riseup.net          7sbw6jufrirhyltzkslhcmkik4z7yrsmbpnptyritvz5nhbk35hncsqd.onion
+mail.riseup.net           5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
+pad.riseup.net            kfahv6wfkbezjyg4r6mlhpmieydbebr5vkok5r34ya464gqz6c44bnyd.onion
+share.riseup.net          aco6injncogk3siaubyh5sterx7w5pocqdrm7mna7u4wuukscgnqpeid.onion
+account.riseup.net        3xeiol2bnhrsqhcsaifwtnlqkylrerdspzua7bcjrh26qlrrrctfobid.onion
+we.riseup.net             zkdppoahhqu5ihjqd4qqvyfd2bm4wejrhjosim67t6yopl77jitg2nad.onion
+imap.riseup.net           5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
+pop.riseup.net            5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
+smtp.riseup.net           5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion
+mx1.riseup.net            aj3nsqqcksrrc5cye5etjsoewz6jrygpekzwoko3q6wyxjlb3dgasfid.onion
+0xacab.org                wmj5kiic7b6kjplpbvwadnht2nh2qnkbnqtcv3dyvpqtz7ssbssftxid.onion
 
 # Another useful services
-mullvad.net        o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion      # bottom of mullvad.net
-twitter.com        twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion      # Wikipedia
-rutracker.org      torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
-rutracker.net      torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
-rutracker.nl       torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
-flibusta.is        flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
-flibusta.net       flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
-flisland.net       flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
+mullvad.net               o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion      # bottom of mullvad.net
+twitter.com               twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion      # Wikipedia
+rutracker.org             torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
+rutracker.net             torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
+rutracker.nl              torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwqqd.onion      # Wikipedia
+flibusta.is               flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
+flibusta.net              flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
+flisland.net              flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
 `;
       chrome.storage.local.set(items);
     }
