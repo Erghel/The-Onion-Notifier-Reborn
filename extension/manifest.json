@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Notify you when you visit a website that offer an .onion domain. Only intended for use with the Tor Browser.",
   "homepage_url": "https://github.com/Erghel/The-Onion-Notifier-Reborn",
-  "author": "Stefan Sundin",
+  "author": "Stefan Sundin, Erghel",
   "icons": {
     "16": "img/icon16.png",
     "48": "img/icon48.png",
@@ -27,6 +27,6 @@
     "notifications",
     "storage"
   ],
-  
+
   "manifest_version": 2
 }
