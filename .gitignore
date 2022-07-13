@@ -5,6 +5,3 @@ Thumbs.db
 web-ext-artifacts
 /node_modules
 /*.xpi
-
-files
-tor-not.xpi
