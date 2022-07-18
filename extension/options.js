@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     database_input.value = items.database;
   });
 
+  // function which show you "Saved" when you update db 
   save_button.addEventListener("click", function() {
     chrome.storage.local.set({
       database: database_input.value
