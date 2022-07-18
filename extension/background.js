@@ -1,31 +1,5 @@
 let db;
 
-// # bottom of https://thepiratebay.org/
-// thepiratebay.am    uj3wazyk5u4hnvtk.onion
-// thepiratebay.com   uj3wazyk5u4hnvtk.onion
-// thepiratebay.gd    uj3wazyk5u4hnvtk.onion
-// thepiratebay.gl    uj3wazyk5u4hnvtk.onion
-// thepiratebay.gs    uj3wazyk5u4hnvtk.onion
-// thepiratebay.gy    uj3wazyk5u4hnvtk.onion
-// thepiratebay.la    uj3wazyk5u4hnvtk.onion
-// thepiratebay.mn    uj3wazyk5u4hnvtk.onion
-// thepiratebay.ms    uj3wazyk5u4hnvtk.onion
-// thepiratebay.net   uj3wazyk5u4hnvtk.onion
-// thepiratebay.org   uj3wazyk5u4hnvtk.onion
-// thepiratebay.pe    uj3wazyk5u4hnvtk.onion
-// thepiratebay.se    uj3wazyk5u4hnvtk.onion
-// thepiratebay.sx    uj3wazyk5u4hnvtk.onion
-// thepiratebay.vg    uj3wazyk5u4hnvtk.onion
-// piratebay.am       uj3wazyk5u4hnvtk.onion
-// piratebay.net      uj3wazyk5u4hnvtk.onion
-// piratebay.no       uj3wazyk5u4hnvtk.onion
-// piratebay.se       uj3wazyk5u4hnvtk.onion
-// themusicbay.com    uj3wazyk5u4hnvtk.onion
-// themusicbay.net    uj3wazyk5u4hnvtk.onion
-// themusicbay.org    uj3wazyk5u4hnvtk.onion
-
-
-
 function load_options() {
   db = {};
   chrome.storage.local.get("database", function(items) {
@@ -51,9 +25,11 @@ keybase.io                keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6o
 www.propublica.org        p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion       
 
 
-
+# DuckDuckGo opened in Tor Browser 
 duckduckgo.com            duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion       
 
+# The Pirate Bay official site 
+thepiratebay.org          piratebayo3klnzokct3wt5yyxb2vpebbuyjl7m623iaxmqhsd52coid.onion
 
 # https://riseup.net/en/tor#riseups-tor-hidden-services
 # https://riseup.net/security/network-security/tor/hs-addresses-signed.txt
