@@ -81,6 +81,8 @@ rutracker.nl              torrentsru5dbmqszbdinnz7cjiubxsjngq52qij6ih3fmp3gn7hwq
 flibusta.is               flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
 flibusta.net              flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
 flisland.net              flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion      # Wikipedia
+blog.torproject.org       pzhdfe7jraknpj2qgu5cz2u3i4deuyfwmonvzu5i3nyw4t4bmg7o5pad.onion      # Torproject Onion Redirect 
+torproject.org            2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion      # Torproject Onion Redirect
 `;
       chrome.storage.local.set(items);
     }
