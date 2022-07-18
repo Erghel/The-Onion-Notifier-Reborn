@@ -1,4 +1,4 @@
-# The Onion Notifier Reborn (TOnR)
+# The Onion Notifier Reborn (TON-R)
 
 Shows a notification if the website you visit also offers a ``.onion`` domain. Click the notification to navigate to the ``.onion`` domain.
 
@@ -16,4 +16,4 @@ For Firefox it is also important to go into ``about:config``, type ``network.dns
 
 That's it, you're ready to open ``.onion`` sites.
 
-This software is not affiliated with or endorsed by the Tor Project.
+**This software is not affiliated with or endorsed by ``The Tor Project``**.
