@@ -1,9 +1,11 @@
+// Пустая переменная для Базы Данных 
 let db;
 
 function load_options() {
   db = {};
   chrome.storage.local.get("database", function(items) {
     if (!items.database || items.database == "") {
+      // База Данных сайтов в сети Tor
       items.database = 
 `
 # Contribute to the database by filing an issue at:
