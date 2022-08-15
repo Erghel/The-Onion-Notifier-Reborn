@@ -1,4 +1,4 @@
-let version = `v${chrome.runtime.getManifest().version}`
+let version = `v${chrome.runtime.getManifest().version}`;
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("extension_version").textContent = version;

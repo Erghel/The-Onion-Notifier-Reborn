@@ -64,6 +64,7 @@ torproject.org            2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53w
 metager.org               metagerv65pwclop2rsfzg4jwowpavpwd6grhhlvdgsswvo6ii4akgyd.onion      # https://metager.org/tor
 searx.tiekoetter.com      searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion      # searx.space
 searx.space               searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion      # Torproject Onion Redirect
+bellingcat.com            bellcatmbguthn3age23lrbseln2lryzv3mt7whis7ktjw4qrestbzad.onion      # Bellingcat of site
 `;
 
       chrome.storage.local.set(items);
