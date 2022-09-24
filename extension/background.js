@@ -70,7 +70,7 @@ librex.beparanoid.de      librex.2356uhnbpv5nk3bni5bv6jg2cd6lgj664kwx3lhyelstptt
 
       chrome.storage.local.set(items);
     }
-    items.database.split("\n").forEach(function(line) {
+    items.database.split("\n").forEach( function(line) {
       let hash_index = line.indexOf("#");
       if (hash_index != -1) {
         line = line.substr(0, hash_index);
@@ -87,7 +87,7 @@ librex.beparanoid.de      librex.2356uhnbpv5nk3bni5bv6jg2cd6lgj664kwx3lhyelstptt
 
 load_options();
 
-chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+chrome.runtime.onMessage.addListener( function(message) {
   if (message.action == "load-options") {
     load_options();
   }
@@ -101,7 +101,7 @@ function extract_domain(url) {
   return url.substring(prot_index+3, path_index);
 }
 
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo) {
   if (changeInfo.url) {
     let domain = extract_domain(changeInfo.url);
     let onion_domain = db[domain];

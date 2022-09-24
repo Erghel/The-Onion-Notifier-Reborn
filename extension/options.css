@@ -1,7 +1,10 @@
 /* Fix scroll bug */
+* {
+  box-sizing: 1px; 
+}
 body {
-  width: 700px;
-  min-height: 415px;
+  min-width: 500px;
+  min-height: 400px;
 }
 /*****************/
 
@@ -19,14 +22,13 @@ p {
 }
 
 #extension_version {
-  float: right;
   font-size: 20px;
   font-weight: 800;
 }
 
 textarea {
   white-space: pre;
-  width: 100%;
+  width: calc(600px - 30%);
   height: 300px;
   font-weight: 400;
   font-size: 20px;
