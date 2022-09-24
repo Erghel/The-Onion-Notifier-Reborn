@@ -65,6 +65,7 @@ metager.org               metagerv65pwclop2rsfzg4jwowpavpwd6grhhlvdgsswvo6ii4akg
 searx.tiekoetter.com      searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion      # searx.space
 searx.space               searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion      # Torproject Onion Redirect
 bellingcat.com            bellcatmbguthn3age23lrbseln2lryzv3mt7whis7ktjw4qrestbzad.onion      # Bellingcat of site
+librex.beparanoid.de      librex.2356uhnbpv5nk3bni5bv6jg2cd6lgj664kwx3lhyelstpttpyv4kk2qd.onion       # github.com/hnhx/librex
 `;
 
       chrome.storage.local.set(items);
